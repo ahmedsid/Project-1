@@ -1,0 +1,15 @@
+<suite name="My suite">
+
+<!-- Listener works only when listener is defined in testng.xml file -->
+
+<listeners>
+	<listener class-name = "listener.CustomListener"/>
+</listeners>
+
+  <suite-files>
+   <suite-file path="./suiteA.xml" />
+   <suite-file path="./suiteB.xml" />
+   <suite-file path="./POT_Application.xml" />
+   
+  </suite-files>
+</suite>

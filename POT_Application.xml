@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POT_Application">
+
+
+<test name="GIT_Remote Execution">
+    <classes>
+        <class name="POT_Application.GIT_Remote_Execution" ></class>  
+    </classes>
+</test>
+
+</suite>
+
